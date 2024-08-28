@@ -1,0 +1,16 @@
+.root {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f6f6f;
+  border: none;
+  padding: 18px 20px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  background: #6f6f6f;
+  border-radius: 8px;
+  min-width: 230px;
+}

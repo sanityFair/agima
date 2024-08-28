@@ -1,0 +1,26 @@
+.root {
+  padding: 17px 47px;
+  background-color: #fff;
+  max-width: 700px;
+  border-radius: 8px;
+
+  & h6 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  & form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+
+    & > div:has(button[type="submit"]) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

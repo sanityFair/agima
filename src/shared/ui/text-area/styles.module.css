@@ -1,0 +1,16 @@
+.root {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  min-height: 168px;
+  width: 100%;
+
+  &::placeholder {
+    color: #000000;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 18px;
+  }
+}
